@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            height:100vh;
+            width:100vw;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+           
+            
+
+        }
+        .box2{
+            height:30vh;
+            width:70vw;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+        }
+        #usernumber{
+            height:10vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">
+            <p>&nbsp You Have 10 Chances</p>
+            <input type="number" id="usernumber" placeholder="Enter the number"><br>&nbsp;&nbsp;
+            &nbsp;&nbsp;
+            &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <button onclick="checker()">Check</button><br>
+            <p id="displayer" style="display:inline-block"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
